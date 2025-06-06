@@ -6,39 +6,50 @@ This repository contains a collection of beginner-level C# console applications.
 
 ## 📁 Project List
 
-| Project Name              | Description                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| `HelloWorld`              | Basic program that prints "Hello, World!" to the console.                   |
-| `BeepApp`                 | Uses `Console.Beep()` to demonstrate simple sound output.                   |
-| `Var1`                    | Shows how to declare, assign, and use various numeric types and variables.  |
-| `Var2`                    | Demonstrates string manipulation including `.ToUpper()`.                    |
-| `Conversion`              | Demonstrates implicit, explicit, and string type conversions.               |
-| `ParsingString`           | Parses strings into numbers using `int.Parse()` and `float.Parse()`.        |
-| `DatatypesAndVariables`   | Declares and outputs various C# data types including byte, int, string, etc.|
-| `StringManipulation`      | Covers concatenation, formatting, interpolation, and verbatim strings.      |
-| `StringMethods`           | Demonstrates string methods like `.ToUpper()`, `.ToLower()`, `.Trim()`, etc.|
-| `StringMethods2`          | Finds characters in strings and concatenates first and last names.          |
-| `VoidMethods`             | Contains methods that print to the console without returning a value.       |
-| `Methods`                 | Demonstrates basic arithmetic in return-type methods.                       |
-| `MethodChallenge`         | Reuses a method to greet several names, showing method reusability.         |
-| `UserInput`               | Takes two user inputs, converts them to integers, and returns their sum.    |
-| `IfStatements`            | Basic `if`, `else-if`, and `else` statements using user input for temperature. |
-| `TryParse`                | Safely parses user input for temperature using `int.TryParse()`.            |
-| `NestedIfStatements`      | Demonstrates nesting of `if` statements and logical operators.              |
-| `IfStatementsLogin`       | Basic username and password registration and login using conditionals.      |
-| `TernaryOperatorChallenge`| Uses nested ternary operators to describe temperature ranges.               |
-| `SwitchStatement`         | Uses `switch-case` statements with both numbers and strings.                |
-| `SwitchCaseHighScore`     | Compares new scores with the high score and updates if needed.              |
-| `EnhancedIfStatement`     | Uses both traditional `if-else` and ternary operators for logic flow.       |
-| `Operators`               | Demonstrates arithmetic, unary, relational, equality, and logical operators.|
-| `TryCatchAndFinally`      | Uses `try`, `catch`, and `finally` to handle exceptions like format errors or divide-by-zero. |
-| `ForLoop`                 | Demonstrates `for` loops with basic counting, custom steps, and odd number iteration. |
-| `DoWhileLoop`             | Uses a `do-while` loop to collect names until a total character length threshold is met. |
-| `whileLoop`               | Increments a people counter until the user types a non-empty string.        |
-| `BreakContinue`           | Demonstrates `break` to exit and `continue` to skip loop iterations.        |
-| `LoopsChallenge`          | Gathers student scores between 1–20, then calculates and displays the average. |
+| Project Name               | Description |
+|----------------------------|-------------|
+| `HelloWorld`               | Basic program that prints "Hello, World!" to the console. |
+| `BeepApp`                  | Demonstrates simple method calls with `Console.Beep()` and output. |
+| `Var1`                     | Declares numeric variables, performs arithmetic, and uses multiple data types. |
+| `Var2`                     | Demonstrates string concatenation and `.ToUpper()` method. |
+| `Conversion`               | Demonstrates implicit and explicit type conversions and `.ToString()`. |
+| `ParsingString`            | Parses numeric strings using `int.Parse()` and `float.Parse()`. |
+| `DatatypesAndVariables`    | Outputs different data types including `byte`, `sbyte`, `long`, `char`, and more. |
+| `StringManipulation`       | Covers string formatting, interpolation, and verbatim strings. |
+| `StringMethods`            | Uses string methods like `.Trim()`, `.Substring()`, `.ToLower()`, `.ToUpper()`. |
+| `StringMethods2`           | Demonstrates `IndexOf()` and `string.Concat()` for combining input. |
+| `VoidMethods`              | Uses basic `void` methods with and without parameters. |
+| `Methods`                  | Arithmetic methods that return values (add, multiply, divide). |
+| `MethodChallenge`          | Uses a method to greet several people with custom names. |
+| `UserInput`                | Accepts and converts user input using `Convert.ToInt16()` and `int.Parse()`. |
+| `IfStatements`             | Uses conditional statements to display temperature advice. |
+| `TryParse`                 | Parses input safely using `int.TryParse()` and handles fallback. |
+| `NestedIfStatements`       | Uses nested conditionals to simulate login/access logic. |
+| `IfStatementsLogin`        | Simulates registration and login using username/password. |
+| `TernaryOperatorChallenge` | Uses nested ternary operators to evaluate temperature categories. |
+| `SwitchStatement`          | Implements `switch-case` for numeric and string comparisons. |
+| `SwitchCaseHighScore`      | Tracks and updates a high score using class members and conditions. |
+| `EnhancedIfStatement`      | Compares ternary logic to traditional `if-else`. |
+| `Operators`                | Demonstrates arithmetic, relational, and logical operators. |
+| `TryCatchAndFinally`       | Uses `try-catch-finally` blocks to handle format and divide-by-zero exceptions. |
+| `ForLoop`                  | Shows standard and stepped `for` loops for counting and iteration. |
+| `DoWhileLoop`              | Uses a `do-while` loop to collect names until a character length limit is reached. |
+| `whileLoop`                | Simulates a people counter that increments until input breaks the loop. |
+| `BreakContinue`            | Demonstrates how to interrupt or skip loop iterations with `break` and `continue`. |
+| `LoopsChallenge`           | Collects scores between 1–20 and calculates average after user exits. |
+| `ClassesAndObjects`        | Demonstrates class creation, constructors, and object instantiation. |
+| `Properties`               | Introduces properties with `get` and `set` to encapsulate private fields. |
+| `Members`                  | Uses access modifiers, a constructor, and methods to encapsulate data and behaviour. |
+| `Arrays`                   | Covers multiple ways to declare and initialise arrays. |
+| `ForEachLoop`              | Demonstrates looping over arrays with a `foreach` loop. |
+| `PracticeCode`             | Reinforces variable declaration, reassignment, and array indexing. |
+| `SmallCalculator`          | Adds numbers using `Convert.ToInt32()` and `int.Parse()` with user input. |
+| `QuizApp`                  | A 3-question quiz with answer checking, score tracking, and feedback. |
+| `NumberGuessingGame`       | A number guessing game using `Random.Next()` and input validation. |
+| `CountingLoops`            | Demonstrates upward and downward `for` loops with output at each step. |
 
 ---
+
 
 ## 🔧 Technologies Used
 
@@ -50,28 +61,28 @@ This repository contains a collection of beginner-level C# console applications.
 
 ## 🧠 Concepts Covered
 
-- Practising C# syntax
-- Understanding variable types and conversions
-- Working with user input
-- Learning about methods and their usage
-- Manipulating and formatting strings
-- Creating and structuring small, testable programs
-- `if`, `else if`, `else` statements
-- `switch-case` logic
-- Looping: `for`, `while`, `do-while`
-- Input validation (`TryParse`)
-- Exception handling (`try-catch-finally`)
-- Ternary conditional operators
-- User-defined methods and parameters
-- Operators: arithmetic, logical, relational, assignment
-- Basic authentication simulation
-- String manipulation and methods
-- Break/Continue control flow
+| Concept                        | Projects                                                               |
+|-------------------------------|------------------------------------------------------------------------|
+| Variables & Data Types         | `Var1`, `Var2`, `DatatypesAndVariables`, `PracticeCode`               |
+| Input & Output                 | Most projects — particularly `UserInput`, `SmallCalculator`, `QuizApp` |
+| Type Conversion                | `Conversion`, `ParsingString`, `SmallCalculator`, `TryParse`          |
+| Conditionals (`if`, `else`)    | `IfStatements`, `IfStatementsLogin`, `NestedIfStatements`, `QuizApp`  |
+| Switch-Case                    | `SwitchStatement`, `SwitchCaseHighScore`                              |
+| Loops (`for`, `while`, `do`)   | `ForLoop`, `whileLoop`, `DoWhileLoop`, `BreakContinue`, `CountingLoops`, `LoopsChallenge` |
+| Ternary Operator               | `EnhancedIfStatement`, `TernaryOperatorChallenge`                     |
+| Exception Handling             | `TryCatchAndFinally`, `TryParse`                                      |
+| Arrays                         | `Arrays`, `ForEachLoop`                                               |
+| Methods                        | `Methods`, `VoidMethods`, `MethodChallenge`, `SwitchCaseHighScore`    |
+| Properties & OOP               | `Properties`, `Members`, `ClassesAndObjects`                          |
+| Randomness                     | `NumberGuessingGame`                                                  |
 
 ---
 
-## 🚀 How to Run
+## ▶️ Running Projects
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+Make sure you have the .NET SDK installed.
+
+To run a project:
+```bash
+cd ProjectFolderName
+dotnet run
