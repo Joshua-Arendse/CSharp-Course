@@ -47,6 +47,16 @@ This repository contains a collection of beginner-level C# console applications.
 | `QuizApp`                  | A 3-question quiz with answer checking, score tracking, and feedback. |
 | `NumberGuessingGame`       | A number guessing game using `Random.Next()` and input validation. |
 | `CountingLoops`            | Demonstrates upward and downward `for` loops with output at each step. |
+| `LoopsChallenge`           | Collect scores using validation and calculate the average. |
+| `Arrays`, `ForEachLoop`, `MultiDimensionalArrays`, `MultiDimensionalArraysAdvanced` | 1D, 2D, and 3D arrays, access patterns, and iteration. |
+| `PracticeCode`             | Reinforcement of string variables and arrays. |
+| `ClassesAndObjects`, `Properties`, `Members` | Basic OOP with constructors, access modifiers, and properties. |
+| `QuizApp`                  | 3-question quiz game using input, comparison, and scoring. |
+| `NumberGuessingGame`, `SecretNumberGame` | Random number guessing with feedback and attempt tracking. |
+| `RocketAnimation`          | Console animation using `Console.Clear()` and `Thread.Sleep()`. |
+| `AdventureGame`            | Text-based RPG with character input, choices, and random outcomes. |
+| `ClassAverageCalculator`   | Calculates class average and percentage based on user input. |
+| `ProgrammingChallenges`    | Collection of mini-exercises: arrays, Fibonacci, primes, patterns, etc. |
 
 ---
 
@@ -61,22 +71,22 @@ This repository contains a collection of beginner-level C# console applications.
 
 ## 🧠 Concepts Covered
 
-| Concept                        | Projects                                                               |
-|-------------------------------|------------------------------------------------------------------------|
-| Variables & Data Types         | `Var1`, `Var2`, `DatatypesAndVariables`, `PracticeCode`               |
-| Input & Output                 | Most projects — particularly `UserInput`, `SmallCalculator`, `QuizApp` |
-| Type Conversion                | `Conversion`, `ParsingString`, `SmallCalculator`, `TryParse`          |
-| Conditionals (`if`, `else`)    | `IfStatements`, `IfStatementsLogin`, `NestedIfStatements`, `QuizApp`  |
-| Switch-Case                    | `SwitchStatement`, `SwitchCaseHighScore`                              |
-| Loops (`for`, `while`, `do`)   | `ForLoop`, `whileLoop`, `DoWhileLoop`, `BreakContinue`, `CountingLoops`, `LoopsChallenge` |
-| Ternary Operator               | `EnhancedIfStatement`, `TernaryOperatorChallenge`                     |
-| Exception Handling             | `TryCatchAndFinally`, `TryParse`                                      |
-| Arrays                         | `Arrays`, `ForEachLoop`                                               |
-| Methods                        | `Methods`, `VoidMethods`, `MethodChallenge`, `SwitchCaseHighScore`    |
-| Properties & OOP               | `Properties`, `Members`, `ClassesAndObjects`                          |
-| Randomness                     | `NumberGuessingGame`                                                  |
+| Topic                     | Covered In Projects |
+|--------------------------|----------------------|
+| ✅ Variables & Data Types | `Var1`, `DatatypesAndVariables`, `PracticeCode` |
+| ✅ Input & Output         | Almost all projects |
+| ✅ Type Conversion        | `Conversion`, `SmallCalculator`, `TryParse` |
+| ✅ Conditionals           | `IfStatements`, `AdventureGame`, `QuizApp` |
+| ✅ Loops & Control Flow   | `ForLoop`, `LoopsChallenge`, `BreakContinue`, `ProgrammingChallenges` |
+| ✅ Methods & Reusability  | `VoidMethods`, `MethodBasics`, `AddTwoValues` |
+| ✅ Arrays & Indexing      | `Arrays`, `ForEachLoop`, `MultiDimensionalArraysAdvanced` |
+| ✅ OOP (Classes & Objects)| `ClassesAndObjects`, `Properties`, `Members` |
+| ✅ Exception Handling     | `TryCatchAndFinally`, `TryParse` |
+| ✅ Randomness & Games     | `NumberGuessingGame`, `SecretNumberGame`, `RocketAnimation` |
+| ✅ Mini Challenges        | `ProgrammingChallenges`, `ClassAverageCalculator` |
 
 ---
+
 
 ## ▶️ Running Projects
 
