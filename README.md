@@ -37,9 +37,6 @@ This repository contains a collection of beginner-level C# console applications.
 | `whileLoop`                | Simulates a people counter that increments until input breaks the loop. |
 | `BreakContinue`            | Demonstrates how to interrupt or skip loop iterations with `break` and `continue`. |
 | `LoopsChallenge`           | Collects scores between 1–20 and calculates average after user exits. |
-| `ClassesAndObjects`        | Demonstrates class creation, constructors, and object instantiation. |
-| `Properties`               | Introduces properties with `get` and `set` to encapsulate private fields. |
-| `Members`                  | Uses access modifiers, a constructor, and methods to encapsulate data and behaviour. |
 | `Arrays`                   | Covers multiple ways to declare and initialise arrays. |
 | `ForEachLoop`              | Demonstrates looping over arrays with a `foreach` loop. |
 | `PracticeCode`             | Reinforces variable declaration, reassignment, and array indexing. |
@@ -47,19 +44,22 @@ This repository contains a collection of beginner-level C# console applications.
 | `QuizApp`                  | A 3-question quiz with answer checking, score tracking, and feedback. |
 | `NumberGuessingGame`       | A number guessing game using `Random.Next()` and input validation. |
 | `CountingLoops`            | Demonstrates upward and downward `for` loops with output at each step. |
-| `LoopsChallenge`           | Collect scores using validation and calculate the average. |
-| `Arrays`, `ForEachLoop`, `MultiDimensionalArrays`, `MultiDimensionalArraysAdvanced` | 1D, 2D, and 3D arrays, access patterns, and iteration. |
-| `PracticeCode`             | Reinforcement of string variables and arrays. |
-| `ClassesAndObjects`, `Properties`, `Members` | Basic OOP with constructors, access modifiers, and properties. |
-| `QuizApp`                  | 3-question quiz game using input, comparison, and scoring. |
-| `NumberGuessingGame`, `SecretNumberGame` | Random number guessing with feedback and attempt tracking. |
 | `RocketAnimation`          | Console animation using `Console.Clear()` and `Thread.Sleep()`. |
 | `AdventureGame`            | Text-based RPG with character input, choices, and random outcomes. |
 | `ClassAverageCalculator`   | Calculates class average and percentage based on user input. |
-| `ProgrammingChallenges`    | Collection of mini-exercises: arrays, Fibonacci, primes, patterns, etc. |
+| `ProgrammingChallenges`    | Collection of mini-exercises: sum of digits, Fibonacci, primes, patterns, etc. |
+| `WeatherSimulator`         | Generates random weather conditions over a number of days, with average calculation. |
+| `MethodsAndFunctionsPractice` | Group of five mini apps: degree converter, calculator, string reversal, factorial, palindrome checker. |
+| `ClassesAndObjects`        | Demonstrates class creation, constructors, and object instantiation. |
+| `Properties`               | Introduces properties with `get` and `set` to encapsulate private fields. |
+| `Members`                  | Uses access modifiers, a constructor, and methods to encapsulate data and behaviour. |
+| `ClassesApp`               | Advanced OOP with constructors, properties, named parameters, readonly fields, and computed properties. |
+| `QuizAppV2`                | Fully object-oriented multiple choice quiz with a `Question` and `Quiz` class. |
+| `StudentGradeTracker`      | Tracks student scores with an array and calculates the average. |
+| `ToDoList`                 | Console-based task manager using a `List<Task>` with due dates and completion status. |
+| `BankAccountSimulator`     | Simulates a real-world bank account with deposit, withdrawal, and encapsulated balance.
 
 ---
-
 
 ## 🔧 Technologies Used
 
@@ -78,15 +78,14 @@ This repository contains a collection of beginner-level C# console applications.
 | ✅ Type Conversion        | `Conversion`, `SmallCalculator`, `TryParse` |
 | ✅ Conditionals           | `IfStatements`, `AdventureGame`, `QuizApp` |
 | ✅ Loops & Control Flow   | `ForLoop`, `LoopsChallenge`, `BreakContinue`, `ProgrammingChallenges` |
-| ✅ Methods & Reusability  | `VoidMethods`, `MethodBasics`, `AddTwoValues` |
+| ✅ Methods & Reusability  | `VoidMethods`, `MethodBasics`, `AddTwoValues`, `MethodsAndFunctionsPractice` |
 | ✅ Arrays & Indexing      | `Arrays`, `ForEachLoop`, `MultiDimensionalArraysAdvanced` |
-| ✅ OOP (Classes & Objects)| `ClassesAndObjects`, `Properties`, `Members` |
+| ✅ OOP (Classes & Objects)| `ClassesAndObjects`, `Properties`, `Members`, `ClassesApp`, `BankAccountSimulator` |
 | ✅ Exception Handling     | `TryCatchAndFinally`, `TryParse` |
-| ✅ Randomness & Games     | `NumberGuessingGame`, `SecretNumberGame`, `RocketAnimation` |
-| ✅ Mini Challenges        | `ProgrammingChallenges`, `ClassAverageCalculator` |
+| ✅ Randomness & Games     | `NumberGuessingGame`, `RocketAnimation`, `WeatherSimulator`, `AdventureGame` |
+| ✅ Mini Challenges        | `ProgrammingChallenges`, `ClassAverageCalculator`, `StudentGradeTracker` |
 
 ---
-
 
 ## ▶️ Running Projects
 
@@ -96,3 +95,4 @@ To run a project:
 ```bash
 cd ProjectFolderName
 dotnet run
+```
