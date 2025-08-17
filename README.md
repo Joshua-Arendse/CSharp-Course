@@ -58,6 +58,23 @@ This repository contains a collection of beginner-level C# console applications.
 | `StudentGradeTracker`      | Tracks student scores with an array and calculates the average. |
 | `ToDoList`                 | Console-based task manager using a `List<Task>` with due dates and completion status. |
 | `BankAccountSimulator`     | Simulates a real-world bank account with deposit, withdrawal, and encapsulated balance.
+| `ContactManagementSystem`      | Stores and manages contacts (name, phone, email) using arrays with menu options. |
+| `OOPCalculator`                | Object-oriented calculator supporting `+`, `-`, `*`, `/` with continuous input. |
+| `Lists`                        | Demonstrates `List<T>`, adding/removing, sorting, and filtering elements. |
+| `PredicatesAndLambdaExpressions` | Uses `Predicate<T>` and lambda expressions with `FindAll()`. |
+| `ListObjects`                  | Stores complex objects in lists, filters with LINQ (`Where`). |
+| `Dictionaries`                 | Demonstrates `Dictionary<TKey, TValue>` operations (add, update, remove, iterate). |
+| `DictionaryObjects`            | Uses dictionaries storing custom objects (`Employee`) and shorthand initialisation. |
+| `ListFilter_Sort`              | Challenge: Filters list with lambda expressions and sorts in descending order. |
+| `ProductsDatabase`             | Stores products in a list, filters by stock, finds most expensive using LINQ. |
+| `EmployeeDirectory`            | Dictionary-based employee system: search by ID, add employees, list by department. |
+| `TryCatch`                     | Demonstrates error handling with `try-catch` and `finally`, plus debugging. |
+| `ThrowExceptions`              | Uses `throw` to handle invalid input scenarios with custom exception messages. |
+| `InheritanceApp`               | Demonstrates single and multi-level inheritance with `Animal → Dog → Collie`. |
+| `AccessModifiers`              | Demonstrates `public`, `protected`, and `private` access levels. |
+| `MethodOverride`               | Demonstrates polymorphism with `virtual` and `override`. |
+| `ConstructorInheritance`       | Demonstrates base-to-derived constructor chaining (`Person → Employee`). |
+| `ConstructorInheritance2`      | Extends constructor inheritance to a multi-level chain (`Person → Employee → Manager`). |
 
 ---
 
@@ -71,19 +88,22 @@ This repository contains a collection of beginner-level C# console applications.
 
 ## 🧠 Concepts Covered
 
-| Topic                     | Covered In Projects |
-|--------------------------|----------------------|
-| ✅ Variables & Data Types | `Var1`, `DatatypesAndVariables`, `PracticeCode` |
-| ✅ Input & Output         | Almost all projects |
-| ✅ Type Conversion        | `Conversion`, `SmallCalculator`, `TryParse` |
-| ✅ Conditionals           | `IfStatements`, `AdventureGame`, `QuizApp` |
-| ✅ Loops & Control Flow   | `ForLoop`, `LoopsChallenge`, `BreakContinue`, `ProgrammingChallenges` |
-| ✅ Methods & Reusability  | `VoidMethods`, `MethodBasics`, `AddTwoValues`, `MethodsAndFunctionsPractice` |
-| ✅ Arrays & Indexing      | `Arrays`, `ForEachLoop`, `MultiDimensionalArraysAdvanced` |
-| ✅ OOP (Classes & Objects)| `ClassesAndObjects`, `Properties`, `Members`, `ClassesApp`, `BankAccountSimulator` |
-| ✅ Exception Handling     | `TryCatchAndFinally`, `TryParse` |
-| ✅ Randomness & Games     | `NumberGuessingGame`, `RocketAnimation`, `WeatherSimulator`, `AdventureGame` |
-| ✅ Mini Challenges        | `ProgrammingChallenges`, `ClassAverageCalculator`, `StudentGradeTracker` |
+| Topic                       | Covered In Projects |
+|------------------------------|----------------------|
+| ✅ Variables & Data Types    | `Var1`, `DatatypesAndVariables`, `PracticeCode` |
+| ✅ Input & Output            | Almost all projects |
+| ✅ Type Conversion           | `Conversion`, `SmallCalculator`, `TryParse` |
+| ✅ Conditionals              | `IfStatements`, `AdventureGame`, `QuizApp` |
+| ✅ Loops & Control Flow      | `ForLoop`, `BreakContinue`, `ListFilter_Sort`, `ProgrammingChallenges` |
+| ✅ Methods & Reusability     | `VoidMethods`, `Methods`, `MethodChallenge` |
+| ✅ Arrays & Indexing         | `Arrays`, `ForEachLoop`, `MultiDimensionalArrays` |
+| ✅ Collections (`List`, `Dict`)| `Lists`, `ListObjects`, `Dictionaries`, `DictionaryObjects` |
+| ✅ LINQ & Lambdas            | `PredicatesAndLambdaExpressions`, `ProductsDatabase` |
+| ✅ OOP (Classes & Objects)   | `ClassesAndObjects`, `Properties`, `Members`, `ConstructorInheritance2` |
+| ✅ Exception Handling        | `TryCatch`, `ThrowExceptions` |
+| ✅ Inheritance & Polymorphism| `InheritanceApp`, `MethodOverride`, `AccessModifiers` |
+| ✅ Mini Challenges           | `ListFilter_Sort`, `EmployeeDirectory`, `ProgrammingChallenges` |
+
 
 ---
 
