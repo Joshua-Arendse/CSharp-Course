@@ -1,5 +1,3 @@
-Here you go — your full **single-textbox, ready-to-paste README** in the same format you requested:
-
 ````markdown
 # 🔄 Custom Sorting Algorithm Using Delegates in C#
 
