@@ -91,13 +91,21 @@ The goal is to practise syntax, understand core programming logic, and build a s
 | `StructsVsClasses` | Compares structs (value types) vs classes (reference types). |
 | `Enums` | Demonstrates `enum` constants with numeric values. |
 | `DateTime1` | Demonstrates date/time creation, parsing, and age calculation with `TimeSpan`. |
+| `Delegate` | Introduces delegates: declaration, instantiation, and invocation of a method through a delegate. |
+| `Delegates2` | Switches a `LogHandler` delegate between console and file logging methods at runtime. |
+| `MulticastDelegates` | Combines methods with `+=` / `-=`, walks the invocation list, and invokes safely with error handling. |
+| `Generics` | Replaces type-specific methods with one generic `PrintArray<T>` method. |
+| `SortingAlgorithm` | Custom sorting algorithm that takes a comparison delegate to sort `Person` objects by age or name. |
+| `Events` | Basic publisher–subscriber example using the `event` keyword and a delegate. |
+| `EventsPractise2` | Standard .NET event pattern with `EventHandler<T>`, custom `EventArgs`, and unsubscribing a handler. |
+| `Regex` | Finds digits in a string using `Regex.Matches()` and reports each match and its position. |
 
 ---
 
 ## 🔧 Technologies Used
 
 - **Language:** C#  
-- **Framework:** .NET 6 / .NET Core  
+- **Framework:** .NET 6 and later (newer projects target .NET 10)  
 - **IDE:** Visual Studio / Visual Studio Code  
 
 ---
@@ -122,6 +130,9 @@ The goal is to practise syntax, understand core programming logic, and build a s
 | ✅ Dependency Injection | `DependencyInjection`, `InterfaceDependencyInjection` |
 | ✅ Structs & Enums | `Structs`, `StructsVsClasses`, `Enums` |
 | ✅ Date & Time | `DateTime1` |
+| ✅ Delegates & Events | `Delegate`, `Delegates2`, `MulticastDelegates`, `SortingAlgorithm`, `Events`, `EventsPractise2` |
+| ✅ Generics | `Generics` |
+| ✅ Regular Expressions | `Regex` |
 | ✅ Mini Challenges | `ListFilter_Sort`, `EmployeeDirectory`, `ProgrammingChallenges` |
 
 ---
@@ -135,3 +146,4 @@ To run a project:
 ```bash
 cd ProjectFolderName
 dotnet run
+```
